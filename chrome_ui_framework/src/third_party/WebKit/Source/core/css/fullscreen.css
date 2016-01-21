@@ -1,0 +1,40 @@
+:not(:root):-webkit-full-screen {
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+    min-width: 0 !important;
+    max-width: none !important;
+    min-height: 0 !important;
+    max-height: none !important;
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: contain !important;
+    transform: none !important;
+}
+
+iframe:-webkit-full-screen {
+    border: none !important;
+    padding: 0 !important;
+}
+
+:not(:root):-webkit-full-screen::backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: black;
+}
+
+/* Anything below are extensions over what the Fullscreen API (29 September 2015) mandates. */
+
+/* This prevents video from overflowing the viewport in
+   virtual/android/fullscreen/video-scrolled-iframe.html
+   FIXME: We should remove this (see crbug.com/441890). */
+:root:-webkit-full-screen-ancestor {
+    overflow: hidden;
+}
