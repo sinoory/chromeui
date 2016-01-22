@@ -138,30 +138,20 @@
     },
     {
       'target_name': 'ax_gen',
-      'type': 'static_library',
-      # This target exports a hard dependency because dependent targets may
-      # include ax_enums.h, a generated header.
+      'type': 'static_library',     
       'hard_dependency': 1,
       'dependencies': [
         '../../base/third_party/dynamic_annotations/dynamic_annotations.gyp:dynamic_annotations'
         ],
+      'include_dirs': [
+        '../..',
+      ],
       'sources': [
-        '<@(schema_files)',
-      ],
-      'msvs_disabled_warnings': [ 4267 ],
-      'includes': [
-        '../../build/json_schema_compile.gypi',
-      ],
+        'ax_enums.cc',
+        'ax_enums.h'
+      ],      
       'variables': {
-        'chromium_code': 1,
-        'schema_files': [
-          'ax_enums.idl',
-        ],
-        'non_compiled_schema_files': [],
-        'cc_dir': 'ui/accessibility',
-        # TODO(dtseng): Change this once all files under ui/accessibility
-        # namespaced under ui::ax.
-        'root_namespace': 'ui',
+        'chromium_code': 1
       },
     },
   ],
