@@ -11,7 +11,7 @@
       'dependencies': [
         '../../gpu/gpu.gyp:command_buffer_common',
         '../../base/base.gyp:base',
-        '../../third_party/WebKit/public/blink.gyp:blink',
+#   '../../third_party/WebKit/public/blink.gyp:blink',
         '../../skia/skia.gyp:skia',
         '../cc.gyp:cc',
         '../../ui/gfx/gfx.gyp:gfx',

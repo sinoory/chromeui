@@ -21,7 +21,7 @@
       '../../../skia/skia.gyp:skia',
       '../../../third_party/libjingle/libjingle.gyp:libjingle',
       '../../../third_party/mt19937ar/mt19937ar.gyp:mt19937ar',
-      '../../../third_party/WebKit/public/blink.gyp:blink',
+# '../../../third_party/WebKit/public/blink.gyp:blink',
       '../../../ui/accessibility/accessibility.gyp:ax_gen',
     ],
   },
