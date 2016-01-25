@@ -29,7 +29,7 @@ action("webkit_version") {
 
 action("chrome_version_json") {
   script = "version.py"
-  _chrome_version_path = "//chrome/VERSION"
+  _chrome_version_path = "//build/util/VERSION"
   inputs = [
     _chrome_version_path,
   ]
