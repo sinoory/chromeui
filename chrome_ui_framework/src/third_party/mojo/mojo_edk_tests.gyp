@@ -254,7 +254,7 @@
       'target_name': 'mojo_js_unittests',
       'type': 'executable',
       'dependencies': [
-        '../../gin/gin.gyp:gin_test',
+       # '../../gin/gin.gyp:gin_test',
         'mojo_edk.gyp:mojo_common_test_support',
         'mojo_edk.gyp:mojo_run_all_unittests',
         'mojo_edk.gyp:mojo_js_lib',
@@ -273,7 +273,7 @@
       'type': 'executable',
       'dependencies': [
         '../../base/base.gyp:base',
-        '../../gin/gin.gyp:gin_test',
+       # '../../gin/gin.gyp:gin_test',
         'mojo_public.gyp:mojo_environment_standalone',
         'mojo_public.gyp:mojo_public_test_interfaces',
         'mojo_public.gyp:mojo_utility',

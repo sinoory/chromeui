@@ -111,7 +111,7 @@
       ['component=="shared_library" and link_core_modules_separately==1', {
         'dependencies': [
           '../core/core.gyp:webcore_shared',
-          '<(DEPTH)/gin/gin.gyp:gin',
+          #'<(DEPTH)/gin/gin.gyp:gin',
         ],
       }, {
         'dependencies': [

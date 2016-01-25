@@ -177,7 +177,7 @@
         '../bindings/modules/v8/generated.gyp:bindings_modules_v8_generated',
         '../platform/platform_generated.gyp:make_platform_generated',
         '../wtf/wtf.gyp:wtf',
-        '<(DEPTH)/gin/gin.gyp:gin',
+        #'<(DEPTH)/gin/gin.gyp:gin',
         '<(DEPTH)/skia/skia.gyp:skia',
         '<(DEPTH)/third_party/iccjpeg/iccjpeg.gyp:iccjpeg',
         '<(DEPTH)/third_party/libpng/libpng.gyp:libpng',
@@ -706,7 +706,7 @@
         '../platform/platform_generated.gyp:make_platform_generated',
 
         '../wtf/wtf.gyp:wtf',
-        '<(DEPTH)/gin/gin.gyp:gin',
+        #'<(DEPTH)/gin/gin.gyp:gin',
         '<(DEPTH)/skia/skia.gyp:skia',
         '<(DEPTH)/third_party/libxml/libxml.gyp:libxml',
         '<(DEPTH)/third_party/libxslt/libxslt.gyp:libxslt',

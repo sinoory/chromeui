@@ -410,7 +410,7 @@
         }],
         ['use_v8_in_net==1 and v8_use_external_startup_data==1', {
           'dependencies': [
-            '../gin/gin.gyp:gin',
+            #'../gin/gin.gyp:gin',
           ]
         }],
       ],
@@ -850,7 +850,7 @@
           'variables': { 'enable_wexit_time_destructors': 1, },
           'dependencies': [
             '../base/base.gyp:base',
-            '../gin/gin.gyp:gin',
+            #'../gin/gin.gyp:gin',
             '../url/url.gyp:url_lib',
             '../v8/tools/gyp/v8.gyp:v8',
             'net'

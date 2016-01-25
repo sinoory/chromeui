@@ -97,7 +97,7 @@
       'target_name': 'mojo_js_unittests2',
       'type': 'executable',
       'dependencies': [
-        '../gin/gin.gyp:gin_test',
+        #'../gin/gin.gyp:gin_test',
         '../third_party/mojo/mojo_public.gyp:mojo_environment_standalone',
         '../third_party/mojo/mojo_public.gyp:mojo_public_test_interfaces',
         '../third_party/mojo/mojo_public.gyp:mojo_utility',
@@ -116,7 +116,7 @@
       'type': 'executable',
       'dependencies': [
         '../base/base.gyp:base',
-        '../gin/gin.gyp:gin_test',
+        #'../gin/gin.gyp:gin_test',
         '../third_party/mojo/mojo_public.gyp:mojo_environment_standalone',
         '../third_party/mojo/mojo_public.gyp:mojo_public_test_interfaces',
         '../third_party/mojo/mojo_public.gyp:mojo_utility',
