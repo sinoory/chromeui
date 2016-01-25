@@ -11,7 +11,7 @@
 #include "cc/layers/layer_impl.h"
 #include "cc/resources/release_callback_impl.h"
 #include "cc/resources/video_resource_updater.h"
-#include "media/base/video_rotation.h"
+#include "cc/media/base/video_rotation.h"
 
 namespace media {
 class VideoFrame;

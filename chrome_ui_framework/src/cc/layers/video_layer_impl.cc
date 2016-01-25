@@ -16,7 +16,7 @@
 #include "cc/trees/layer_tree_impl.h"
 #include "cc/trees/occlusion.h"
 #include "cc/trees/proxy.h"
-#include "media/base/video_frame.h"
+#include "cc/media/base/video_frame.h"
 
 #if defined(VIDEO_HOLE)
 #include "cc/quads/solid_color_draw_quad.h"

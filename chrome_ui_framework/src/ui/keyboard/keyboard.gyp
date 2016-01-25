@@ -49,7 +49,7 @@
       'dependencies': [
         '../../base/base.gyp:base',
         '../../base/third_party/dynamic_annotations/dynamic_annotations.gyp:dynamic_annotations',
-        '../../media/media.gyp:media',
+        #'../../media/media.gyp:media',
         '../../skia/skia.gyp:skia',
         '../aura/aura.gyp:aura',
         '../base/ime/ui_base_ime.gyp:ui_base_ime',

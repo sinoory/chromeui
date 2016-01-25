@@ -8,7 +8,7 @@
 #include "base/callback.h"
 #include "cc/base/cc_export.h"
 #include "cc/layers/layer.h"
-#include "media/base/video_rotation.h"
+#include "cc/media/base/video_rotation.h"
 
 namespace media { class VideoFrame; }
 

@@ -7,7 +7,7 @@
 #include "base/trace_event/trace_event.h"
 #include "cc/base/math_util.h"
 #include "cc/layers/video_layer_impl.h"
-#include "media/base/video_frame.h"
+#include "cc/media/base/video_frame.h"
 
 namespace cc {
 

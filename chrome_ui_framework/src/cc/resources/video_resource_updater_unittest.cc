@@ -12,7 +12,7 @@
 #include "cc/test/test_web_graphics_context_3d.h"
 #include "cc/trees/blocking_task_runner.h"
 #include "gpu/GLES2/gl2extchromium.h"
-#include "media/base/video_frame.h"
+#include "cc/media/base/video_frame.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace cc {

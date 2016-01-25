@@ -12,7 +12,7 @@
 #include "cc/test/fake_video_frame_provider.h"
 #include "cc/test/layer_test_common.h"
 #include "cc/trees/single_thread_proxy.h"
-#include "media/base/video_frame.h"
+#include "cc/media/base/video_frame.h"
 #include "testing/gtest/include/gtest/gtest.h"
 
 namespace cc {
