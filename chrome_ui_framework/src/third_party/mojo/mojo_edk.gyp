@@ -46,7 +46,7 @@
       'dependencies': [
         '../../base/base.gyp:base',
         #'../../gin/gin.gyp:gin',
-        '../../v8/tools/gyp/v8.gyp:v8',
+        #'../../v8/tools/gyp/v8.gyp:v8',
       ],
       'export_dependent_settings': [
         '../../base/base.gyp:base',
