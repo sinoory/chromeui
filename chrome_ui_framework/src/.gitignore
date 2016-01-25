@@ -1,0 +1,15 @@
+#忽略提交gitignore文件
+#.gitignore
+#忽略pyc结尾的文件(中间生成的文件）
+*.pyc
+*.swp
+*.swo
+*.swn
+#忽略out目录的文件
+out/
+#忽略.o文件
+*.o
+#忽略ninja文件
+*.ninja
+#忽略build目录
+build/
