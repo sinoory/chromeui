@@ -695,7 +695,7 @@
       'variables': { 'enable_wexit_time_destructors': 1, },
       'dependencies': [
         '../base/base.gyp:base',
-        '../sql/sql.gyp:sql',
+# '../sql/sql.gyp:sql',
         'net',
       ],
       'sources': [
