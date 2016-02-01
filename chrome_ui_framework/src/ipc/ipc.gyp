@@ -45,7 +45,7 @@
         '../base/base.gyp:base',
         '../base/base.gyp:base_i18n',
         '../base/base.gyp:test_support_base',
-        '../crypto/crypto.gyp:crypto',
+        #'../crypto/crypto.gyp:crypto',
         '../testing/gtest.gyp:gtest',
       ],
       'include_dirs': [

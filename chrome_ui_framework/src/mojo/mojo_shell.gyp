@@ -71,7 +71,7 @@
     'dependencies': [
       '<(DEPTH)/base/base.gyp:base',
       '<(DEPTH)/base/third_party/dynamic_annotations/dynamic_annotations.gyp:dynamic_annotations',
-      '<(DEPTH)/crypto/crypto.gyp:crypto',
+      #'<(DEPTH)/crypto/crypto.gyp:crypto',
       '<(DEPTH)/mojo/mojo_base.gyp:mojo_application_base',
       '<(DEPTH)/mojo/mojo_base.gyp:mojo_application_bindings',
       '<(DEPTH)/mojo/mojo_base.gyp:mojo_common_lib',
