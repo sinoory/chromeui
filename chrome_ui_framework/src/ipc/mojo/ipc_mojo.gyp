@@ -17,7 +17,7 @@
       'defines': [
         'IPC_MOJO_IMPLEMENTATION',
       ],
-      'includes': [ '../../third_party/mojo/mojom_bindings_generator.gypi' ],
+      #'includes': [ '../../third_party/mojo/mojom_bindings_generator.gypi' ],
       'dependencies': [
         '../ipc.gyp:ipc',
         '../../base/base.gyp:base',

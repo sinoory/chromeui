@@ -143,7 +143,7 @@
         '../base/base.gyp:base',
       ],
       'includes': [
-        '../third_party/mojo/mojom_bindings_generator.gypi',
+        #'../third_party/mojo/mojom_bindings_generator.gypi',
       ],
       'sources': [
         # Note: file list duplicated in GN build.
