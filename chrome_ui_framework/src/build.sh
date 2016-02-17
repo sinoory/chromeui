@@ -13,10 +13,10 @@ done
 
 if [ $BUILD_DEBUG == 1 ] ; then
    echo "........BUILDING DEBUG MODE......"
-   ninja -C out/Debug views_examples_exe
+   ninja -C out/Debug browser_view_exe
 else
    echo "........BUILDING RELEASE MODE......"
-   ninja -C out/Release views_examples_exe
+   ninja -C out/Release browser_view_exe
 fi
 
 
